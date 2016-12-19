@@ -1,5 +1,8 @@
 {% extends 'media/base.html' %}
-<title>{% block title %}Media: {% endblock %}</title>
+<title align center>{% block title %}Media {% endblock %}</title>
 {% block main_body_content %}
-    <div class="card-panel transparent lighten-4"><h3>{{ title }}</h3></div>
+    {% block header %}
+        <div class="card-panel transparent lighten-1"><h3>{{ title }}</h3></div>
+    {% endblock %}
+
 {% endblock %}

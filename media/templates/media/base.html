@@ -13,12 +13,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- Static files -->
     {% load staticfiles %}
     <link rel="stylesheet" type="text/css" href="{% static 'media/css/main.css' %}">
 
 </head>
 <body>
+    <div class="headng">
+        <div id="main_header" class="teal container-fluid">
+            <h2>My header setup</h2>
+        </div>
+    </div>
     {% block main_body_content  %}
     {% endblock %}
+
 </body>
 </html>
