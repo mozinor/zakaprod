@@ -1,3 +1,5 @@
 {% extends 'media/base.html' %}
 <title>{% block title %}Media: {% endblock %}</title>
-{% block content %}<h1>{{ wlcm }}</h1>{% endblock %}
+{% block main_body_content %}
+    <div class="card-panel transparent lighten-4"><h3>{{ title }}</h3></div>
+{% endblock %}
