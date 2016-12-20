@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 
 def index(request):
-    context = {'title': 'ZakaZaka Production'}
+    context = {'title': 'ZakaZaka Music'}
     return render(request, 'media/index.html', context)
 

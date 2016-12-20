@@ -46,10 +46,23 @@ class Video(models.Model):
 
 
 class Comments(models.Model):
-    pass
+    user_email = models.EmailField()
+    user_first = models.CharField(max_length=50)
+    user_last = models.CharField(max_length=50)
+    comment_content = models.CharField(max_length=500)
+    aprprt_comment = models.BooleanField(default=False)
+    comment_title = models.CharField(max_length=20)
+
+    def __str__(self):
+        return self.comment_title
 
 
 class Post(models.Model):
     post_content = models.CharField(max_length=500)
-    pass
+    post_date = models.DateField('published_on')
+    post_tile = models.CharField(max_length=70)
+
+    def __str__(self):
+        return self.post_tile
+
 

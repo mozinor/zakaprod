@@ -25,12 +25,14 @@ SECRET_KEY = 'v9f0kkqtjt_xqc!4d_d8$5nirktg^b^qdcm#2hdes_^k)ahwl('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [u'192.168.0.15', u'0.0.0.0', ]
+ALLOWED_HOSTS = [u'192.168.0.15', u'0.0.0.0', u'localhost']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'about.apps.AboutConfig',
+    'homeai.apps.HomeaiConfig',
     'media.apps.MediaConfig',
     'django.contrib.admin',
     'django.contrib.auth',
