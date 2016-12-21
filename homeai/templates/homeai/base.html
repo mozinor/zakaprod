@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} ZakaZaka MUSIC {% endblock %}</title>
+    <!-- jQuery CDN import-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Materialize CDN import -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+    <!-- Bootstrap CDN import -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+
+    <!-- Static files -->
+    {% load staticfiles %}
+    <link rel="icon" type="image/jps" href="{% static 'homeai/img/favicon.jpg' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'homeai/css/main.css' %}">
+    <script src="{% static 'homeai/js/navbar-collapse.js' %}" rel="script"></script>
+</head>
+<body>
+    <nav class="navbar-fixed-top">
+        <div class="nav-wrapper">
+          <a href="#!" class="brand-logo"><img id="logo-size" src="{% static 'homeai/img/favicon.jpg' %}"/></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a class="waves-effect waves-light btn">Home</a></li>
+            <li><a class="waves-effect waves-light btn">News</a></li>
+            <li><a class="waves-effect waves-light btn">Media</a></li>
+            <li><a class="waves-effect waves-light btn">About us</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <a href="#!" class="brand-logo"><img id="logo-size" src="{% static 'homeai/img/favicon.jpg' %}"/></a><br>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#News">News</a></li>
+            <li><a href="#Media">Media</a></li>
+            <li><a href="#home">About Us</a></li>
+          </ul>
+        </div>
+    </nav>
+    {% block main_body_content  %}
+    {% endblock %}
+    <nav>
+    <footer >
+        <div class="footer-copyright">
+           <div class="container" align="center">
+              © 2016 Design by Sebastien Diarra
+              <a class="grey-text text-lighten-4 right" href="#!">OLA</a>
+           </div>
+        </div>
+    </footer>
+    </nav>
+</body>
+</html>

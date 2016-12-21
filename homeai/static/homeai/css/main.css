@@ -1,0 +1,83 @@
+    html,body {
+      height:100%;
+      margin:0;
+    }
+
+    #logo-size{
+        width: 100px;
+    }
+    .brand-logo{
+    margin-left: 5%;
+    }
+    .nav-wrapper{
+        background-color: #262626;
+        position: fixed;
+    }
+    .hide-on-med-and-down .btn{
+        background-color: #505050;
+        height: 0%;
+        font-family: 'Amatic SC', cursive;
+        font-size: 180%;
+        font-weight:400;
+    }
+    .hide-on-med-and-down .btn:hover{
+        color: #ffffff;
+        background-color: dimgrey;
+    }
+    a{
+        text-decoration: none;
+    }
+/*Home: template css*/
+    html>body .outer-box {
+      height:auto;
+    }
+    .outer-box {
+      height:100%;
+      min-height:100%; /* min used in  mozilla*/
+    }
+    #primary-box {
+        background: rgba(50,50,50,.90);
+    }
+    #secondary-box {
+        background: rgba(236, 216, 198, .90);
+    }
+    #third-box{
+        background: rgba(179,179,179, .95);
+    }
+    .title-box{
+        /*border: 3px solid #456875;*/
+        width:40%;
+        padding-top: 15%;
+    }
+    #title{
+        font-family: 'Satisfy', cursive;
+        font-size: 450%;
+        color: white;
+    }
+    #sub_title{
+        font-family: 'Cookie', cursive;
+        font-size: 230%;
+        color: white;
+    }
+    #intro-text{
+        color: white;
+        font-size: 150%;
+        font-family: 'Economica', sans-serif;
+    }
+    #more-about{
+        padding-top: 2%;
+    }
+    .title-bottom .btn{
+        font-family: 'Satisfy', cursive;
+        font-size: 160% ;
+        padding: 2%;
+        padding-bottom: 4%;
+        text-align: center;
+        background-color: #666666;
+    }
+    .text-wrapper{
+        white-space: nowrap;
+    }
+/*Media: templates css*/
+
+/*Contact: template css */
