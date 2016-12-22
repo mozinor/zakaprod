@@ -46,7 +46,7 @@
         background: rgba(115,143,115, 1);
     }
     #third-box{
-        background: rgba(0,0,26, .95);
+        background: rgba(153,153,153, .95);
     }
     .title-box{
         /*border: 3px solid #456875;*/
@@ -55,17 +55,17 @@
     }
     #title{
         font-family: 'Satisfy', cursive;
-        font-size: 450%;
+        font-size: 420%;
         color: white;
     }
     #sub_title{
         font-family: 'Cookie', cursive;
-        font-size: 230%;
+        font-size: 210%;
         color: white;
     }
     #intro-text{
         color: white;
-        font-size: 150%;
+        font-size: 160%;
         font-family: 'Economica', sans-serif;
     }
     #more-about{
@@ -96,18 +96,20 @@
     }
     .bottom-text-box-title{
         background-color: #262626;
+        font-family: 'Economica', sans-serif;
     }
     .bottom-text-box-content{
         background-color: #85DB96;
+        color: white;
+        font-family: 'Economica', sans-serif;
+        text-shadow: .1px .1px white;
+        font-size:150%;
+        font-weight: 400;
     }
-    .leff-box{
-
-    }
-    .center-box{
-
-    }
-    .right-box{
-
+    /*Third Div Elements*/
+    .form-position{
+        padding-top: 5%;
+        width: 90%;
     }
 /*Media: templates css*/
 
