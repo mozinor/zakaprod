@@ -73,17 +73,36 @@
             <div class="col-md-6">
                 Produceur Site
             </div>
-            <div class="col-md-6">
+            <div class="form-container col-md-6">
+                <div align="left"><a class="form-title" href="#contact">Contact Us: </a></div>
                 <div class="form-position" align="left">
                     <form class="col s12">
                         <div class="row">
                             <div class="input-field col s6">
-                                <input placeholder="Placeholder" id="first_name" type="text" class="validate">
-                                <label for="first_name">First Name</label>
+                                <input id="first_name" type="text" class="inputFont validate">
+                                <label id="labelFont" for="first_name">First Name</label>
                             </div>
                             <div class="input-field col s6">
                                 <input id="last_name" type="text" class="validate">
-                                <label for="last_name">Last Name</label>
+                                <label id="labelFont" for="last_name">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <input id="email" type="email" class="inputFont validate">
+                                <label id="labelFont" data-error="incorect email" data-success="good email format" for="email_field">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s10">
+                                <input id="subject" type="text" class="inputFont validate">
+                                <label id="labelFont" for="email_field">Subject</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12">
+                                <textarea id="email-area" class="materialize-textarea" length="120"></textarea>
+                                <label id="labelFont" for="email-area">Message</label>
                             </div>
                         </div>
                     </form>

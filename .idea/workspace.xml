@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95d6646b-96ab-4797-aa4c-673c6add6c23" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeai/static/homeai/css/main.css" afterPath="$PROJECT_DIR$/homeai/static/homeai/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js" afterPath="$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/homeai/templates/homeai/index.html" afterPath="$PROJECT_DIR$/homeai/templates/homeai/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +23,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/homeai/static/homeai/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="111" column="16" lean-forward="false" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+            <state relative-caret-position="94">
+              <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -31,7 +33,7 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeai/templates/homeai/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
+            <state relative-caret-position="990">
               <caret line="55" column="69" lean-forward="false" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
               <folding />
             </state>
@@ -41,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeai/templates/homeai/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+            <state relative-caret-position="512">
+              <caret line="104" column="78" lean-forward="false" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -51,8 +53,8 @@
       <file leaf-file-name="navbar-collapse.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="144">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="e#0#44#0" expanded="false" />
               </folding>
@@ -115,9 +117,9 @@
         <option value="$PROJECT_DIR$/media/templates/media/base.html" />
         <option value="$PROJECT_DIR$/homeai/urls.py" />
         <option value="$PROJECT_DIR$/zakaprod/urls.py" />
-        <option value="$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js" />
         <option value="$PROJECT_DIR$/homeai/views.py" />
         <option value="$PROJECT_DIR$/homeai/templates/homeai/base.html" />
+        <option value="$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js" />
         <option value="$PROJECT_DIR$/homeai/templates/homeai/index.html" />
         <option value="$PROJECT_DIR$/homeai/static/homeai/css/main.css" />
       </list>
@@ -941,16 +943,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#44#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -968,24 +960,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/homeai/templates/homeai/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
+        <state relative-caret-position="990">
           <caret line="55" column="69" lean-forward="false" selection-start-line="55" selection-start-column="69" selection-end-line="55" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/homeai/static/homeai/js/navbar-collapse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#44#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/homeai/templates/homeai/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="88" column="20" lean-forward="false" selection-start-line="88" selection-start-column="20" selection-end-line="88" selection-end-column="20" />
+        <state relative-caret-position="512">
+          <caret line="104" column="78" lean-forward="false" selection-start-line="104" selection-start-column="78" selection-end-line="104" selection-end-column="78" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/homeai/static/homeai/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="111" column="16" lean-forward="false" selection-start-line="111" selection-start-column="16" selection-end-line="111" selection-end-column="16" />
+        <state relative-caret-position="94">
+          <caret line="110" column="0" lean-forward="true" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
           <folding />
         </state>
       </provider>
