@@ -27,6 +27,9 @@
     a{
         text-decoration: none;
     }
+    .footer-copyright{
+        background: rgba(6, 6, 6, .95);
+    }
 /*Home: template css*/
     html>body .outer-box {
       height:auto;
@@ -39,10 +42,11 @@
         background: rgba(50,50,50,.90);
     }
     #secondary-box {
-        background: rgba(236, 216, 198, .90);
+        /*background: rgba(158,158,110, .90);*/
+        background: rgba(115,143,115, 1);
     }
     #third-box{
-        background: rgba(179,179,179, .95);
+        background: rgba(0,0,26, .95);
     }
     .title-box{
         /*border: 3px solid #456875;*/
@@ -77,6 +81,31 @@
     }
     .text-wrapper{
         white-space: nowrap;
+    }
+    /*Secondary Div elemts*/
+    .top-text-box{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 45%;
+    }
+    .top-text{
+        text-align: center;
+        color: white;
+        font-size: 150%;
+        font-family: 'Economica', sans-serif;
+    }
+    .bottom-text-box-title{
+        width: 80%;
+        background-color: #262626;
+    }
+    .leff-box{
+
+    }
+    .center-box{
+
+    }
+    .right-box{
+
     }
 /*Media: templates css*/
 
