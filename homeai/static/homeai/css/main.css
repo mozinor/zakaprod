@@ -95,8 +95,10 @@
         font-family: 'Economica', sans-serif;
     }
     .bottom-text-box-title{
-        width: 80%;
         background-color: #262626;
+    }
+    .bottom-text-box-content{
+        background-color: #85DB96;
     }
     .leff-box{
 
