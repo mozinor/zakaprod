@@ -70,11 +70,15 @@
     </div>
     <div class="outer-box" id="third-box">
         <div class="container-fluid" align="center">
-            <div class="col-md-6">
-                Produceur Site
+            <div class=" col-md-6">
+                <div class="fndr-box">
+                    <div class="fndr-img-cirle"></div>
+                </div>
+                <div><p class="white-text">Founder.</p><a>Some Name</a></div>
             </div>
-            <div class="form-container col-md-6">
-                <div align="left"><a class="form-title" href="#contact">Contact Us: </a></div>
+            <div class="col-md-6">
+                <div class="lft-container form-container ">
+                <div align="left"><a class="form-title" href="#contact">Message Us: </a></div>
                 <div class="form-position" align="left">
                     <form class="col s12">
                         <div class="row">
@@ -100,12 +104,22 @@
                             </div>
                         </div>
                         <div class="row">
+                            <p>
+                            <input type="checkbox" id="copy_check" />
+                            <label id="labelFont" for="copy_check">Send me a copy</label>
+                            </p>
+                        </div>
+                        <div class="row">
                             <div class="input-field col s12">
                                 <textarea id="email-area" class="materialize-textarea" length="120"></textarea>
                                 <label id="labelFont" for="email-area">Message</label>
                             </div>
                         </div>
+                        <div class="row" align="right">
+                            <input id="labelFont" onclick="disable" class="sndbtn btn" type="submit" value="SEND" align="right">
+                        </div>
                     </form>
+                </div>
                 </div>
             </div>
         </div>

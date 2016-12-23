@@ -95,8 +95,9 @@
         font-family: 'Economica', sans-serif;
     }
     .bottom-text-box-title{
-        background-color: #262626;
+        background-color: #999966;
         font-family: 'Economica', sans-serif;
+        width: 200%;
     }
     .bottom-text-box-content{
         background-color: #85DB96;
@@ -107,12 +108,34 @@
         font-weight: 400;
     }
     /*Third Div Elements*/
-    .form-container{
+    .fndr-box{
+        width: 70%;
+        padding-top: 20%;
+    }
+    .prfl-card{
 
+    }
+    .fndr-img-cirle{
+        width: 200px;
+        height: 200px;
+        border-radius: 150px;
+        -webkit-border-radius: 150px;
+        -moz-border-radius: 150px;
+        background: url(http://test.phoenixtea.org/static/images/chat/profile01.png) no-repeat;
+    }
+    .lft-container{
+        border-left: 3px solid #ADE082;
+    }
+    .lft-container:hover{
+        border-left: 3px groove #E69973;
+    }
+    .form-container{
+        margin-top: 8%;
     }
     .form-position{
         padding-top: 5%;
-        width: 90%;
+
+        width: 80%;
     }
     .form-title{
         font-size: 200%;
@@ -120,10 +143,16 @@
         font-weight: 300;
         color: white;
         margin-top: 5%;
+        padding-left: 2%;
+        text-decoration: none;
+    }
+     .form-title:hover{
+        color: white;
         text-decoration: none;
     }
     #labelFont{
         font-size: 100%;
+        font-family: 'Economica', sans-serif;
     }
     #first_name, #last_name, #email, #subject, #email-area{
         color: white;
@@ -137,6 +166,10 @@
     }
     #input-text{
         color: white;
+    }
+    .sndbtn{
+        width: 25%;
+        background-color: #5C8F45;
     }
 /*Media: templates css*/
 
