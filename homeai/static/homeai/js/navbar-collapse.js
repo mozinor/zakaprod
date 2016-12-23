@@ -8,5 +8,4 @@ $(document).ready(function () {
         closeOnClick: true,
         draggable: true
     });
-    $('input#input_text, textarea#email-area').characterCounter();
 })

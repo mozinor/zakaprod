@@ -1,21 +1,22 @@
 {% extends 'homeai/base.html' %}
+{% load staticfiles %}
 {% block main_body_content %}
-       <div class='outer-box' id='primary-box'>
-        <div class="container-fluid" align="center">
-            <div class="title-box" align="center">
-                <h2 class="home-title" id="title">{{ title }}</h2>
-                <div><p id="sub_title">{{ sub_title }}</p></div>
-                <div>
-                    <p id="intro-text">We make music that is listen internationally, good music, quality music, join us in our journey.
-                    The number one source for good music in Mali. We are Zaka-Zaka Music!
-                    </p>
-                </div>
-
-            </div>
-            <div class="title-bottom" id="more-about">
-                <a class="btn" id="about-button">Who are we?</a>
+    <div class='outer-box' id='primary-box'>
+    <div class="container-fluid" align="center">
+        <div class="title-box" align="center">
+            <h2 class="home-title" id="title">{{ title }}</h2>
+            <div><p id="sub_title">{{ sub_title }}</p></div>
+            <div>
+                <p id="intro-text">We make music that is listen internationally, good music, quality music, join us in our journey.
+                The number one source for good music in Mali. We are Zaka-Zaka Music!
+                </p>
             </div>
         </div>
+        <div class="title-bottom" id="more-about">
+            <a class="btn" id="about-button">Who are we?</a>
+        </div>
+    </div>
+    <div class="float-btn-position"><a class="btn-floating btn-large waves-effect waves-light red right"><i class="material-icons">add</i></a></div>
     </div>
     <div class='outer-box' id='secondary-box'>
         <div class="container-fluid">
@@ -72,8 +73,8 @@
         <div class="container-fluid" align="center">
             <div class=" col-md-6">
                 <div class="fndr-box">
-                    <div class="fndr-img-cirle"></div>
-                </div>
+                    <img class="fndr-img-cirle" src="{% static 'homeai/img/IMG-20161222-WA0004.jpg' %}">
+                </div><br>
                 <div><p class="white-text">Founder.</p><a>Some Name</a></div>
             </div>
             <div class="col-md-6">
@@ -111,7 +112,7 @@
                         </div>
                         <div class="row">
                             <div class="input-field col s12">
-                                <textarea id="email-area" class="materialize-textarea" length="120"></textarea>
+                                <textarea id="email-area" class="materialize-textarea"></textarea>
                                 <label id="labelFont" for="email-area">Message</label>
                             </div>
                         </div>

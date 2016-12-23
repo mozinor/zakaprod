@@ -39,7 +39,7 @@
       min-height:100%; /* min used in  mozilla*/
     }
     #primary-box {
-        background: rgba(50,50,50,.90);
+        background: no-repeat center rgba(75,75,75,.95);
     }
     #secondary-box {
         /*background: rgba(158,158,110, .90);*/
@@ -50,7 +50,7 @@
     }
     .title-box{
         /*border: 3px solid #456875;*/
-        width:40%;
+        width:50%;
         padding-top: 15%;
     }
     #title{
@@ -81,6 +81,10 @@
     }
     .text-wrapper{
         white-space: nowrap;
+    }
+    .float-btn-position{
+        padding-right: 1%;
+        padding-top: 2%;
     }
     /*Secondary Div elemts*/
     .top-text-box{
@@ -121,7 +125,7 @@
         border-radius: 150px;
         -webkit-border-radius: 150px;
         -moz-border-radius: 150px;
-        background: url(http://test.phoenixtea.org/static/images/chat/profile01.png) no-repeat;
+        background: url(../img/IMG-20161222-WA0004.jpg) center no-repeat;
     }
     .lft-container{
         border-left: 3px solid #ADE082;
