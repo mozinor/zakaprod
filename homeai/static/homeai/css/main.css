@@ -54,17 +54,20 @@
         padding-top: 15%;
     }
     #title{
-        font-family: 'Satisfy', cursive;
-        font-size: 420%;
+        /*font-family: 'Satisfy', cursive;*/
+        font-family: 'Amatic SC', cursive;
+        font-size: 700%;
         color: white;
+        font-weight: 400;
     }
     #sub_title{
-        font-family: 'Cookie', cursive;
-        font-size: 210%;
-        color: white;
+        /*font-family: 'Cookie', cursive;*/
+        font-family: 'Yellowtail', cursive;
+        font-size: 190%;
+        color: #f0f5f5;
     }
     #intro-text{
-        color: white;
+        color: #f0f5f5;
         font-size: 160%;
         font-family: 'Economica', sans-serif;
     }
@@ -74,10 +77,14 @@
     .title-bottom .btn{
         font-family: 'Satisfy', cursive;
         font-size: 160% ;
+        color: #f0f5f5;
         padding: 2%;
         padding-bottom: 4%;
         text-align: center;
         background-color: #666666;
+    }
+    .title-bottom .btn:hover{
+        background-color: #404040;
     }
     .text-wrapper{
         white-space: nowrap;
@@ -116,9 +123,6 @@
         width: 70%;
         padding-top: 20%;
     }
-    .prfl-card{
-
-    }
     .fndr-img-cirle{
         width: 200px;
         height: 200px;
@@ -138,7 +142,6 @@
     }
     .form-position{
         padding-top: 5%;
-
         width: 80%;
     }
     .form-title{
@@ -162,19 +165,24 @@
         color: white;
         font-size: 100%;
     }
-    .input-field input[type=text]:focus {
-
-    }
-    .input-field input[type=text].valid {
-
-    }
     #input-text{
         color: white;
     }
-    .sndbtn{
+    .sndbtn {
         width: 25%;
         background-color: #5C8F45;
     }
+    .footer-content-one{
+        margin: 0;
+        background-color: #404040;
+        width: 100%;
+    }
+    .this-container{
+        width: 100%;
+        margin: 0;
+    }
+/*News APP*/
+
 /*Media: templates css*/
 
 /*Contact: template css */

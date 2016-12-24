@@ -25,10 +25,11 @@ class Album(models.Model):
 class Song(models.Model):
     song_artist = models.ManyToManyField(Artist)
     album = models.ForeignKey(Album, on_delete=models.CASCADE)
-    song_title = models.CharField(max_length=100)
+    song_title = models.CharField(max_length=100, db_index=True)
     song_pub_date = models.DateField('published_on')
     song_description = models.CharField(max_length=200)
     song_rating = models.FloatField(default=0.0)
+    song_link = models.URLField()
 
     def __str__(self):
         return self.song_title
@@ -36,16 +37,17 @@ class Song(models.Model):
 
 class Video(models.Model):
     video_artist = models.ForeignKey(Artist)
-    video_title = models.CharField(max_length=100)
+    video_title = models.CharField(max_length=100, db_index=True)
     video_pub_date = models.DateField('published_on')
     video_description = models.CharField(max_length=200)
     video_rating = models.FloatField(default=0.0)
+    video_link = models.URLField()
 
     def __str__(self):
         return self.video_title
 
 
-class Comments(models.Model):
+class Comment(models.Model):
     user_email = models.EmailField()
     user_first = models.CharField(max_length=50)
     user_last = models.CharField(max_length=50)
@@ -56,13 +58,5 @@ class Comments(models.Model):
     def __str__(self):
         return self.comment_title
 
-
-class Post(models.Model):
-    post_content = models.CharField(max_length=500)
-    post_date = models.DateField('published_on')
-    post_tile = models.CharField(max_length=70)
-
-    def __str__(self):
-        return self.post_tile
 
 

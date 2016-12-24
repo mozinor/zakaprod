@@ -15,7 +15,9 @@
     <!-- Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Fonts -->
+    <script src="https://use.fontawesome.com/6c1b3cbab7.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
@@ -33,9 +35,9 @@
           <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a class="waves-effect waves-light btn">Home</a></li>
-            <li><a class="waves-effect waves-light btn">News</a></li>
-            <li><a class="waves-effect waves-light btn">Media</a></li>
-            <li><a class="waves-effect waves-light btn">About us</a></li>
+            <li><a href="{% url 'news:index' %}" class="waves-effect waves-light btn">News</a></li>
+            <li><a href="{% url 'media:index' %}" class="waves-effect waves-light btn">Media</a></li>
+            <li><a href="{% url 'about:index' %}" class="waves-effect waves-light btn">About us</a></li>
           </ul>
           <ul class="side-nav" id="mobile-demo">
             <a href="#!" class="brand-logo"><img id="logo-size" src="{% static 'homeai/img/favicon.jpg' %}"/></a><br>
@@ -48,8 +50,9 @@
     </nav>
     {% block main_body_content  %}
     {% endblock %}
-    <footer>
-
-    </footer>
+    <div class="this-container container-fluid">
+        <div class="footer-content-one">Hello
+        </div>
+    </div>
 </body>
 </html>

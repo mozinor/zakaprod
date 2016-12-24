@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'about.apps.AboutConfig',
     'homeai.apps.HomeaiConfig',
     'media.apps.MediaConfig',
+    'news.apps.NewsConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'zakaprod.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [(os.path.join(BASE_DIR, 'templates')), ],
+        'DIRS': [(os.path.join(BASE_DIR, 'news/templates')), ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

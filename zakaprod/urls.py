@@ -19,5 +19,7 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^media/', include('media.urls')),
-    url(r'^home/', include('homeai.urls'))
+    url(r'^about/', include('about.urls')),
+    url(r'^', include('homeai.urls')),
+    url(r'^articles/', include('news.urls')),
 ]
