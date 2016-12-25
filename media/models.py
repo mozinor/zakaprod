@@ -29,7 +29,7 @@ class Song(models.Model):
     song_pub_date = models.DateField('published_on')
     song_description = models.CharField(max_length=200)
     song_rating = models.FloatField(default=0.0)
-    song_link = models.URLField()
+    song_link = models.URLField(blank=False)
 
     def __str__(self):
         return self.song_title
@@ -41,7 +41,7 @@ class Video(models.Model):
     video_pub_date = models.DateField('published_on')
     video_description = models.CharField(max_length=200)
     video_rating = models.FloatField(default=0.0)
-    video_link = models.URLField()
+    video_link = models.URLField(blank=False)
 
     def __str__(self):
         return self.video_title

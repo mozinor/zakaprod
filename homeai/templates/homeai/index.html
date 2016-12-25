@@ -13,7 +13,7 @@
             </div>
         </div>
         <div class="title-bottom" id="more-about">
-            <a class="btn" id="about-button">Who are we?</a>
+            <a href="{% url 'about:index' %}" class="btn" id="about-button">Who are we?</a>
         </div>
     </div>
     <div class="float-btn-position"><a class="btn-floating btn-large waves-effect waves-light right"><i class="fa fa-arrow-down" aria-hidden="true"></i>
@@ -76,9 +76,10 @@
         <div class="container-fluid" align="center">
             <div class=" col-md-6">
                 <div class="fndr-box">
+                    <h4 class="white-text">CEO</h4>
                     <img class="fndr-img-cirle  circle" src="{% static 'homeai/img/IMG-20161222-WA0004.jpg' %}">
                 </div><br>
-                <div><p class="white-text">Founder.</p><a>Some Name</a></div>
+                <div><a>Some Name</a></div>
             </div>
             <div class="col-md-6">
                 <div class="lft-container form-container ">

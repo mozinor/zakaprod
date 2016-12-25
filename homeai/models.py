@@ -9,9 +9,9 @@ class Contact(models.Model):
     lastname = models.CharField(max_length=70)
     contact_email = models.EmailField()
     email_copy = models.BooleanField(default=False)
-    email_content = models.CharField(max_length=700)
+    email_content = models.TextField()
     contact_date = models.DateTimeField('contact_date')
 
     def __str__(self):
-        return self.contact_firstname + ' '+ self.contact_lastname
+        return self.contact_firstname + ' ' + self.contact_lastname
 
